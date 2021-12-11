@@ -34,7 +34,7 @@
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
-  environment.systemPackages = with pkgs; [ git nixfmt nssmdns  ];
+  environment.systemPackages = with pkgs; [ gh git nixfmt nssmdns  ];
 
   # List services that you want to enable:
 
