@@ -56,6 +56,10 @@
     allowReboot = true;
     dates = "*-*-* 04:00:00 America/Los_Angeles";
   };
+  nix.gc = {
+    automatic = true;
+    dates = "03:00";
+  };
 
   services.vscode-server.enable = true;
 
